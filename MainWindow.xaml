@@ -1,0 +1,21 @@
+﻿<Window x:Class="GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="647">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="586" VerticalAlignment="Top" Width="651" Source="/Logotipo.bmp" Margin="0,-105,0,0" Opacity="0.1" Stretch="Fill" d:IsLocked="True"/>
+        <Button Content="Añadir Jugador" HorizontalAlignment="Left" Margin="12,65,0,0" VerticalAlignment="Top" Click="AddPlayerBtn"/>
+        <Button Content="Listar Jugadores" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Click="ListButton"/>
+        <Button Content="Generar Informe" HorizontalAlignment="Left" Margin="116,65,0,0" VerticalAlignment="Top" Click="GenInformButton"/>
+        <Label Content="Filtrar" HorizontalAlignment="Left" Margin="102,28,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="FilterCBox" HorizontalAlignment="Left" Margin="145,31,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+            <ComboBoxItem Content="Alfabeticamente"/>
+            <ComboBoxItem Content="Por equipo"/>
+        </ComboBox>
+        <TextBox x:Name="ListTxTBox" BorderThickness="0" HorizontalAlignment="Center" TextWrapping="Wrap"  VerticalAlignment="Top" Width="627" Height="221" IsReadOnly="True" Margin="0,160,0,0" Background="Transparent" VerticalScrollBarVisibility="Auto"/>
+    </Grid>
+</Window>
