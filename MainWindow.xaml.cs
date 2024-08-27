@@ -39,6 +39,7 @@ namespace GUI
             {
                 ListTxTBox.Text = string.Empty;
                 ListTxTBox.BorderThickness = new Thickness(1);
+                ListTxTBox.Background = new SolidColorBrush(Colors.White);
                 switch (FilterCBox.Text)
                 {
                     case "Alfabeticamente":
