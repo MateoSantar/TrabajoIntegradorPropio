@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GUI"
         mc:Ignorable="d"
-        Title="Añadir Jugador" Height="421" Width="389" ResizeMode="NoResize">
+        Title="Añadir Jugador" Height="439" Width="389" ResizeMode="NoResize">
     <Grid>
-        <StackPanel HorizontalAlignment="Center" Orientation="Vertical" VerticalAlignment="Top" Background="#0C000000" Width="380" d:IsLocked="True">
+        <Rectangle HorizontalAlignment="Center" Height="57" Margin="0,348,0,0" VerticalAlignment="Top" Width="389" Fill="#FF4AB248" Stroke="White" StrokeThickness="3"/>
+        <StackPanel HorizontalAlignment="Center" Orientation="Vertical" VerticalAlignment="Top" Background="#0C000000" Width="374">
             <Label Content="Nombre:" FontFamily="Bahnschrift Light" FontSize="18" d:IsLocked="True"/>
             <Label Content="Posición:" FontFamily="Bahnschrift Light" FontSize="18" d:IsLocked="True"/>
             <Label Content="Equipo:" FontFamily="Bahnschrift Light" FontSize="18" d:IsLocked="True"/>
@@ -36,7 +37,7 @@
 
 
         </ComboBox>
-        <Button Content="Aceptar" HorizontalAlignment="Left" Margin="8,345,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift Light" FontSize="18" Height="30" Width="82" Click="Accept"/>
+        <Button Content="Aceptar" HorizontalAlignment="Left" Margin="8,363,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift Light" FontSize="18" Height="30" Width="82" Click="Accept"/>
         <TextBox x:Name="NameTxtBox" HorizontalAlignment="Left" FontFamily="Bahnschrift Light" FontSize="14" Margin="86,8,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="223" MaxLines="1"/>
         <TextBox x:Name="TeamTxtBox" HorizontalAlignment="Left" FontFamily="Bahnschrift Light" FontSize="14" Margin="75,71,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="234" MaxLines="1"/>
         <DatePicker x:Name="BirthDP" HorizontalAlignment="Left" Margin="110,100,0,0" VerticalAlignment="Top"/>
@@ -46,8 +47,8 @@
         <TextBox x:Name="FoulsTxtBox" HorizontalAlignment="Left" FontFamily="Bahnschrift Light" FontSize="14" Margin="65,229,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="143" MaxLines="1"/>
         <TextBox x:Name="AssistsTxtBox" HorizontalAlignment="Left" FontFamily="Bahnschrift Light" FontSize="14" Margin="113,260,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142" MaxLines="1"/>
         <TextBox x:Name="LesionsTxtBox" HorizontalAlignment="Left" FontFamily="Bahnschrift Light" FontSize="14" Margin="97,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" MaxLines="1"/>
-        <Label Content="$" FontFamily="Bahnschrift Light" FontSize="15" Margin="150,320,190,26"/>
-        <TextBox x:Name="MarketValueTxtBox" HorizontalAlignment="Left" FontFamily="Bahnschrift Light" FontSize="14" Margin="166,323,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="181" MaxLines="1"/>
-        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="100,345,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift Light" FontSize="18" Height="30" Width="82" Click="Cancel"/>
+        <Label Content="$" FontFamily="Bahnschrift Light" FontSize="15" Margin="152,319,219,76"/>
+        <TextBox x:Name="MarketValueTxtBox" HorizontalAlignment="Left" FontFamily="Bahnschrift Light" FontSize="14" Margin="167,323,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="181" MaxLines="1"/>
+        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="100,363,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift Light" FontSize="18" Height="30" Width="82" Click="Cancel"/>
     </Grid>
 </Window>

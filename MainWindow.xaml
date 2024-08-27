@@ -8,11 +8,11 @@
         Title="MainWindow" Height="450" Width="647">
     <Grid>
         <Image HorizontalAlignment="Left" Height="586" VerticalAlignment="Top" Width="651" Source="/Logotipo.bmp" Margin="0,-105,0,0" Opacity="0.1" Stretch="Fill" d:IsLocked="True"/>
-        <Button Content="Añadir Jugador" HorizontalAlignment="Left" Margin="12,65,0,0" VerticalAlignment="Top" Click="AddPlayerBtn"/>
-        <Button Content="Listar Jugadores" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Click="ListButton"/>
-        <Button Content="Generar Informe" HorizontalAlignment="Left" Margin="116,65,0,0" VerticalAlignment="Top" Click="GenInformButton"/>
-        <Label Content="Filtrar" HorizontalAlignment="Left" Margin="102,28,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="FilterCBox" HorizontalAlignment="Left" Margin="145,31,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+        <Rectangle HorizontalAlignment="Left" Height="59" Margin="12,26,0,0" Stroke="WhiteSmoke" StrokeThickness="0.5" VerticalAlignment="Top" Width="213" Fill="Black" Opacity="0.2"/>
+        <Button Content="Añadir Jugador" HorizontalAlignment="Left" Margin="109,64,0,0" VerticalAlignment="Top" Click="AddPlayerBtn"/>
+        <Button Content="Listar Jugadores" HorizontalAlignment="Left" Margin="13,32,0,0" VerticalAlignment="Top" Click="ListButton"/>
+        <Button Content="Generar Informe" HorizontalAlignment="Left" Margin="13,64,0,0" VerticalAlignment="Top" Click="GenInformButton"/>
+        <ComboBox x:Name="FilterCBox" HorizontalAlignment="Left" Margin="105,32,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" Height="20">
             <ComboBoxItem Content="Alfabeticamente"/>
             <ComboBoxItem Content="Por equipo"/>
         </ComboBox>
