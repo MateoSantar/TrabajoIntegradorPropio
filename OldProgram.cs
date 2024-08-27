@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 namespace TrabajoIntegrador
 {
-    internal class MainClass
+    internal class OldProgram
     {
         //Mediante un menu, se debe poder instanciar diferentes jugadores conforme se vayan agregando
         //Ya tener instanciados algunos pre-hechos nos serviría
